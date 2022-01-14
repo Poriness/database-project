@@ -14,6 +14,7 @@ import javax.validation.constraints.NotNull;
 @Builder
 @EqualsAndHashCode
 @ToString
+@Getter @Setter
 @Table(name = "Products")
 public class ProductEntity {
     @Id
@@ -34,4 +35,15 @@ public class ProductEntity {
     @ManyToOne
     @JoinColumn(name = "category_id")
     private CategoryEntity category;
+
+    public ProductEntity(short productId, String productName, String quantityPerUnit, Float unitPrice, short unitsInStock, short unitsOnOrder, short reorderLevel, Integer discontinued) {
+        this.productId = productId;
+        this.productName = productName;
+        this.quantityPerUnit = quantityPerUnit;
+        this.unitPrice = unitPrice;
+        this.unitsInStock = unitsInStock;
+        this.unitsOnOrder = unitsOnOrder;
+        this.reorderLevel = reorderLevel;
+        this.discontinued = discontinued;
+    }
 }
