@@ -1,6 +1,7 @@
 package edu.agh.northwind.databaseproject.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.Entity;
@@ -35,6 +36,7 @@ public class SupplierEntity {
     private String fax;
     private String homepage;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "supplier")
     private List<ProductEntity> products;
 }

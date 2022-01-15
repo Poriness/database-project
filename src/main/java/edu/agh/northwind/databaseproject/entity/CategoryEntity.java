@@ -1,6 +1,7 @@
 package edu.agh.northwind.databaseproject.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -27,5 +28,6 @@ public class CategoryEntity {
     //Picture
 
     @OneToMany(mappedBy = "category")
+    @JsonIgnore
     private List<ProductEntity> products;
 }
