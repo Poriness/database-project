@@ -1,7 +1,7 @@
-package pl.dorotaplachno.databaseproject.repository;
+package edu.agh.northwind.databaseproject.repository;
 
+import edu.agh.northwind.databaseproject.entity.CategoryEntity;
 import org.springframework.data.repository.CrudRepository;
-import pl.dorotaplachno.databaseproject.entity.CategoryEntity;
 
 import java.util.List;
 

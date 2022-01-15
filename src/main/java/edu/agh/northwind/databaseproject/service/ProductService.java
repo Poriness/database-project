@@ -1,10 +1,10 @@
-package pl.dorotaplachno.databaseproject.service;
+package edu.agh.northwind.databaseproject.service;
 
+import edu.agh.northwind.databaseproject.dto.ProductDto;
+import edu.agh.northwind.databaseproject.entity.ProductEntity;
+import edu.agh.northwind.databaseproject.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.dorotaplachno.databaseproject.dto.ProductDto;
-import pl.dorotaplachno.databaseproject.entity.ProductEntity;
-import pl.dorotaplachno.databaseproject.repository.ProductRepository;
 
 import java.util.List;
 

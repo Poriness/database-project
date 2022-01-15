@@ -1,13 +1,13 @@
-package pl.dorotaplachno.databaseproject.controller;
+package edu.agh.northwind.databaseproject.controller;
 
+import edu.agh.northwind.databaseproject.dto.ProductDto;
+import edu.agh.northwind.databaseproject.entity.ProductEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pl.dorotaplachno.databaseproject.dto.ProductDto;
-import pl.dorotaplachno.databaseproject.entity.ProductEntity;
-import pl.dorotaplachno.databaseproject.service.ProductService;
+import edu.agh.northwind.databaseproject.service.ProductService;
 
 import java.util.List;
 

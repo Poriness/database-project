@@ -1,9 +1,9 @@
-package pl.dorotaplachno.databaseproject.controller;
+package edu.agh.northwind.databaseproject.controller;
 
+import edu.agh.northwind.databaseproject.entity.CategoryEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pl.dorotaplachno.databaseproject.entity.CategoryEntity;
-import pl.dorotaplachno.databaseproject.service.CategoryService;
+import edu.agh.northwind.databaseproject.service.CategoryService;
 
 import java.util.List;
 

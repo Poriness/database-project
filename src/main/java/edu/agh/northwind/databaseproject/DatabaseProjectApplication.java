@@ -1,13 +1,16 @@
-package pl.dorotaplachno.databaseproject;
+package edu.agh.northwind.databaseproject;
 
+import edu.agh.northwind.databaseproject.entity.CategoryEntity;
+import edu.agh.northwind.databaseproject.entity.OrderEntity;
+import edu.agh.northwind.databaseproject.entity.ProductEntity;
+import edu.agh.northwind.databaseproject.entity.SupplierEntity;
+import edu.agh.northwind.databaseproject.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import pl.dorotaplachno.databaseproject.entity.*;
-import pl.dorotaplachno.databaseproject.repository.*;
+
 
 import javax.annotation.PostConstruct;
-import java.util.List;
 import java.util.Optional;
 
 @SpringBootApplication

@@ -1,4 +1,4 @@
-package pl.dorotaplachno.databaseproject.entity;
+package edu.agh.northwind.databaseproject.entity;
 
 
 import lombok.*;

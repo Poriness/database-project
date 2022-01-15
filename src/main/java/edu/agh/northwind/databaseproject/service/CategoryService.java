@@ -1,9 +1,9 @@
-package pl.dorotaplachno.databaseproject.service;
+package edu.agh.northwind.databaseproject.service;
 
+import edu.agh.northwind.databaseproject.entity.CategoryEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.dorotaplachno.databaseproject.entity.CategoryEntity;
-import pl.dorotaplachno.databaseproject.repository.CategoryRepository;
+import edu.agh.northwind.databaseproject.repository.CategoryRepository;
 
 import java.util.List;
 

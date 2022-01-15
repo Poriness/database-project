@@ -1,8 +1,8 @@
-package pl.dorotaplachno.databaseproject.repository;
+package edu.agh.northwind.databaseproject.repository;
 
+import edu.agh.northwind.databaseproject.entity.OrderEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pl.dorotaplachno.databaseproject.entity.OrderEntity;
 
 @Repository
 public interface OrderRepository extends CrudRepository<OrderEntity, Short>{

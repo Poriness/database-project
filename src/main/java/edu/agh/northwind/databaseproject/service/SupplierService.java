@@ -1,4 +1,4 @@
-package pl.dorotaplachno.databaseproject.service;
+package edu.agh.northwind.databaseproject.service;
 
 import org.springframework.stereotype.Service;
 

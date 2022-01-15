@@ -1,4 +1,4 @@
-package pl.dorotaplachno.databaseproject.controller;
+package edu.agh.northwind.databaseproject.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

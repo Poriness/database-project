@@ -1,8 +1,8 @@
-package pl.dorotaplachno.databaseproject.repository;
+package edu.agh.northwind.databaseproject.repository;
 
+import edu.agh.northwind.databaseproject.entity.ProductEntity;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import pl.dorotaplachno.databaseproject.entity.ProductEntity;
 
 import java.util.List;
 
